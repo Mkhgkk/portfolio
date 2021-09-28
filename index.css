@@ -1,0 +1,110 @@
+#homepage-hero {
+  height: 100vh;
+  width: 100%;
+  background-color: brown;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1482361046637-0226fdcfa3b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+}
+
+.github-button {
+  color: white;
+  background: pink;
+  border-radius: 30px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.project-tile {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  /* overflow: hidden; */
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: 400px 100%;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  color: white;
+}
+
+.tech-logo {
+  height: 150px;
+  /* width: 200px; */
+  width: auto;
+  border-radius: 20px;
+}
+
+#unifella-hero {
+  height: 50vh;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: brown;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1498079022511-d15614cb1c02?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHVuaXZlcnNpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+#bugimall-hero {
+  height: 50vh;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: brown;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1557821552-17105176677c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80);
+}
+
+#bugipay-hero {
+  height: 50vh;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: brown;
+  color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-image: url(https://images.unsplash.com/photo-1608286022625-bc07f7a21154?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+}
+
+#unifella-about {
+}
+
+.parallax {
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.footer {
+  /* position: fixed; */
+  margin-top: 70px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
