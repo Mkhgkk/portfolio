@@ -8,13 +8,26 @@
   flex-direction: column;
   justify-content: space-between;
   background-repeat: no-repeat;
-  background-image: url(https://images.unsplash.com/photo-1482361046637-0226fdcfa3b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  background-image: url("/assets/main1.jpg");
+}
+
+.navHover:hover {
+  color: #badc58;
+}
+
+.navHover:focus {
+  color: white;
 }
 
 .github-button {
   color: white;
   background: black;
   border-radius: 30px;
+}
+
+.github-button:hover {
+  color: black;
+  background: white;
 }
 
 .nav-link {
@@ -52,7 +65,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-repeat: no-repeat;
-  background-image: url(https://images.unsplash.com/photo-1498079022511-d15614cb1c02?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHVuaXZlcnNpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-image: url(/assets/unifella-background.png);
 }
 #bugimall-hero {
   height: 50vh;
@@ -90,9 +103,11 @@
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  /* background-size: 100% auto;
+   */
+  background-size: 50%;
 }
 
 .footer {

@@ -36,19 +36,16 @@
         </div>
         <ul class="nav justify-content-end">
           <li onclick="navigate('/index.html')" class="nav-item pointer">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link navHover" href="#">Home</a>
           </li>
           <li onclick="navigate('/index.html#about')" class="nav-item pointer">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link navHover" href="#">About</a>
           </li>
           <li
             onclick="navigate('/index.html#contact')"
             class="nav-item pointer"
           >
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link github-button" href="#">View Site</a>
+            <a class="nav-link navHover" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -92,6 +89,7 @@
         </div>
         <div class="col">
           <img
+            style="width: 100%"
             src="https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVuaXZlcnNpdHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
@@ -104,7 +102,7 @@
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Technologies</h1>
       </div>
-      <div class="row">
+      <div class="row" style="text-align: center">
         <div class="col">
           <img
             src="https://img2.baidu.com/it/u=2844812245,1973836676&fm=26&fmt=auto"
@@ -210,24 +208,31 @@
       "
     >
       <div class="row" style="width: 30%">
-        <div onclick="navigate('/index.html')" class="col pointer">Home</div>
-        <div onclick="navigate('/index.html#about')" class="col pointer">
-          About Me
+        <div onclick="navigate('/index.html')" class="col pointer navHover">
+          Home
         </div>
-        <div onclick="navigate('/index.html#contact')" class="col pointer">
+        <div
+          onclick="navigate('/index.html#about')"
+          class="col pointer navHover"
+        >
+          About
+        </div>
+        <div
+          onclick="navigate('/index.html#contact')"
+          class="col pointer navHover"
+        >
           Contact
         </div>
       </div>
       <div class="row" style="padding-top: 20px; font-size: 20px">
-        <div class="col pointer">
-          <i class="fab fa-instagram"></i>
-        </div>
-        <div class="col pointer">
+        <div
+          onclick="navigate('https://github.com/Mkhgkk')"
+          class="col pointer navHover"
+        >
           <div class="col"><i class="fab fa-github"></i></div>
         </div>
       </div>
     </section>
-
     <script src="/index.js"></script>
 
     <script
