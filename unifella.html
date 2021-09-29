@@ -17,6 +17,7 @@
     <title>Unifella</title>
   </head>
   <body>
+    <!-- hero section  -->
     <section id="unifella-hero">
       <div
         class="container"
@@ -30,15 +31,21 @@
         <div>
           <h1 style="font-family: Open Sans; font-weight: 900">UNIFELLA</h1>
           <h1 style="font-family: montserrat; font-weight: 300">
-            Web Application
+            University Application Website
           </h1>
         </div>
         <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <li onclick="navigate('/index.html')" class="nav-item pointer">
+            <a class="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item">
+          <li onclick="navigate('/index.html#about')" class="nav-item pointer">
             <a class="nav-link" href="#">About</a>
+          </li>
+          <li
+            onclick="navigate('/index.html#contact')"
+            class="nav-item pointer"
+          >
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link github-button" href="#">View Site</a>
@@ -60,6 +67,7 @@
       </div>
     </section>
 
+    <!-- about section  -->
     <section id="unifella-about" class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">About Unifella</h1>
@@ -67,13 +75,19 @@
       <div class="row">
         <div class="col">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Unifella is an online university application website mainly focused
+            on Chinese websites. Recently we have witnessed huge numbers of
+            international students developing interests to pursue their higher
+            education in Chinese universities myself being one of them. But
+            acute lack of information such as tuition fees structure and various
+            aspects of life in China hinders the efforts of hundreds of students
+            worldwide from reaching for their dreams. Unifella seeks to become
+            the online platform that students can visit to get all information
+            about universities such as tuition fees structure, accommodation
+            status, university rankings, and comments from other students.
+            Unifella also enables students to apply directly to universities
+            without going through middlemen to cut down on unnecessary costs and
+            time.
           </p>
         </div>
         <div class="col">
@@ -85,6 +99,7 @@
       </div>
     </section>
 
+    <!-- technology section  -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Technologies</h1>
@@ -130,17 +145,13 @@
       </div>
     </section>
 
+    <!-- showcase section  -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Show case</h1>
       </div>
 
       <div style="text-align: center">
-        <p>
-          homapage features bright colors grabs user's attention and gives the
-          whole website modern aestetics, text animations also turns the website
-          from being static to a more live site that comes into life.
-        </p>
         <img
           style="width: 100%; border-radius: 5px"
           src="assets/homepage.gif"
@@ -150,8 +161,9 @@
       <div class="row gx-1" style="padding-top: 50px">
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            All information on the platform in available without restrictions
+            but users are required to create an account inorder to apply for
+            universities or scolarships.
           </p>
           <img
             style="width: 90%; border-radius: 5px"
@@ -161,8 +173,8 @@
         </div>
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            This website implements authentication using email, username and
+            password for every user account.
           </p>
           <img
             style="width: 90%; border-radius: 5px"
@@ -174,9 +186,10 @@
 
       <div style="text-align: center; padding-top: 70px">
         <p>
-          homapage features bright colors grabs user's attention and gives the
-          whole website modern aestetics, text animations also turns the website
-          from being static to a more live site that comes into life.
+          Unifella website also provides detailed information about all programs
+          and scholarships available in universities, information such as
+          application requirements, visa requirements, steps on how to apply,
+          eligibility as well as fequent asked questions.
         </p>
         <img
           style="width: 100%; border-radius: 5px"
@@ -186,7 +199,36 @@
       </div>
     </section>
 
-    <section class="footer">This a good footer</section>
+    <!-- footer section  -->
+    <section
+      class="footer"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      "
+    >
+      <div class="row" style="width: 30%">
+        <div onclick="navigate('/index.html')" class="col pointer">Home</div>
+        <div onclick="navigate('/index.html#about')" class="col pointer">
+          About Me
+        </div>
+        <div onclick="navigate('/index.html#contact')" class="col pointer">
+          Contact
+        </div>
+      </div>
+      <div class="row" style="padding-top: 20px; font-size: 20px">
+        <div class="col pointer">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="col pointer">
+          <div class="col"><i class="fab fa-github"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -202,6 +244,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
       integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/84e6f9894d.js"
       crossorigin="anonymous"
     ></script>
   </body>

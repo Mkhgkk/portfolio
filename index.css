@@ -13,7 +13,7 @@
 
 .github-button {
   color: white;
-  background: pink;
+  background: black;
   border-radius: 30px;
 }
 
@@ -21,20 +21,17 @@
   color: white;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
+
 .project-tile {
-  height: 300px;
-  width: 100%;
   border-radius: 10px;
-  overflow: hidden;
-  /* overflow: hidden; */
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-size: 400px 100%;
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  padding: 20px;
-  color: white;
+  margin-bottom: 20px;
+}
+
+.project:hover {
+  cursor: pointer;
 }
 
 .tech-logo {

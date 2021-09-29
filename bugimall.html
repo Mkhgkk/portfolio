@@ -17,6 +17,7 @@
     <title>Bugimall</title>
   </head>
   <body>
+    <!-- hero section  -->
     <section id="bugimall-hero">
       <div
         class="container"
@@ -60,6 +61,7 @@
       </div>
     </section>
 
+    <!-- about section  -->
     <section id="unifella-about" class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">About Bugimall</h1>
@@ -67,13 +69,17 @@
       <div class="row">
         <div class="col">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Bugimall is an online shopping application based in Tanzania, highly
+            inspired by Chinese giant shopping apps such as Taobao and JD.com.
+            One of the most things that impressed me the most about China is the
+            level of technological advancement and the corresponding role it
+            plays in improving Chinese people’s everyday lives. Shopping apps
+            stand out the most amongst technologies that have revolutionalized
+            how we go about our everyday lives. Bugimall attempts to replicate
+            this technology in the untapped market of Tanzania by introducing
+            cutting-edge technologies and connecting with Chinese suppliers in
+            order to bring down the cost of goods in Tanzania and to improve the
+            lives of many people.
           </p>
         </div>
         <div class="col">
@@ -85,6 +91,7 @@
       </div>
     </section>
 
+    <!-- technology section  -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Technologies</h1>
@@ -130,6 +137,7 @@
       </div>
     </section>
 
+    <!-- showcase section  -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Show case</h1>
@@ -137,9 +145,11 @@
 
       <div style="text-align: center">
         <p>
-          homapage features bright colors grabs user's attention and gives the
-          whole website modern aestetics, text animations also turns the website
-          from being static to a more live site that comes into life.
+          Bugimall implements time-tested user experience techniques used in
+          many popular apps to make the shopping experience on the app very
+          intuitive even for first-time users. The app also avoids putting
+          together a lot of visual elements on the screen to avoid confusing
+          users and ruining the entire user experience.
         </p>
         <img
           style="width: 100%; border-radius: 5px"
@@ -156,28 +166,32 @@
           />
         </div>
         <div class="col-6">
+          <h3 style="font-family: Open Sans; font-weight: 900">
+            Discover more in less time.
+          </h3>
           <p>
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            The home page is designed purely with the intention for users to
+            easily find and discover items that they might be looking for.
+            Machine learning also powers products recommendations according to
+            users’ search history, view history, and trending items.
           </p>
         </div>
       </div>
 
       <div class="row gx-1" style="padding-top: 50px; align-items: center">
         <div class="col-6">
+          <h3 style="font-family: Open Sans; font-weight: 900">
+            We provide information, you make the choice.
+          </h3>
           <p>
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Determining which product to buy can be a daunting task and shopping
+            online does not make it any easier. Bugimall provides all the
+            information that a user might need to make the choice through a very
+            intuitive user interface. Such information also includes reviews
+            from other users.
           </p>
         </div>
+
         <div class="col-6">
           <img
             style="width: 90%; border-radius: 5px"
@@ -190,19 +204,19 @@
       <div class="row gx-1" style="padding-top: 50px">
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            Add items to your cart and later come back and checkout whatever you
+            want to buy in three easy steps
           </p>
           <img
             style="width: 90%; border-radius: 5px"
-            src="/assets/adding-to-cart.gif"
+            src="/assets/cart-checkout.gif"
             alt=""
           />
         </div>
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            Bugimall implements maps api so that the users don't have to write
+            their addresses by hand which can be slow and inccurate.
           </p>
           <img
             style="width: 90%; border-radius: 5px"
@@ -213,7 +227,34 @@
       </div>
     </section>
 
-    <section class="footer">This a good footer</section>
+    <!-- footer section  -->
+    <section
+      class="footer"
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      "
+    >
+      <div class="row" style="width: 30%">
+        <div onclick="navigate('/index.html')" class="col pointer">Home</div>
+        <div onclick="navigate('/index.html#about')" class="col pointer">
+          About Me
+        </div>
+        <div onclick="navigate('/index.html#contact')" class="col pointer">
+          Contact
+        </div>
+      </div>
+      <div class="row" style="padding-top: 20px; font-size: 20px">
+        <div class="col pointer">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="col pointer">
+          <div class="col"><i class="fab fa-github"></i></div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -229,6 +270,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
       integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/84e6f9894d.js"
       crossorigin="anonymous"
     ></script>
   </body>

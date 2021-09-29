@@ -23,6 +23,7 @@
     <title>Bugimall</title>
   </head>
   <body>
+    <!-- hero section  -->
     <section id="bugipay-hero">
       <div
         class="container"
@@ -66,6 +67,7 @@
       </div>
     </section>
 
+    <!-- about section -->
     <section id="unifella-about" class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">About Bugimall</h1>
@@ -73,13 +75,14 @@
       <div class="row">
         <div class="col">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Bugipay is a mobile payment app that enables users to make transfers
+            to other users on the platform as well as to chat privately and in
+            groups. Bugipay has widely incorporated the use of QR code
+            throughout the app to perform tasks such as making payment, adding
+            friends, and joining groups. Bugipay is aiming to give financial
+            control at low costs to millions of people living in Tanzania and
+            potentially other developing nations through state of the art
+            technologies used by the likes of AliPay and WechatPay in China.
           </p>
         </div>
         <div class="col">
@@ -91,6 +94,7 @@
       </div>
     </section>
 
+    <!-- technologies section -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Technologies</h1>
@@ -136,17 +140,13 @@
       </div>
     </section>
 
+    <!-- showcase section -->
     <section class="container">
       <div style="text-align: center; padding: 70px">
         <h1 style="font-family: Open Sans; font-weight: 900">Show case</h1>
       </div>
 
       <div style="text-align: center">
-        <p>
-          homapage features bright colors grabs user's attention and gives the
-          whole website modern aestetics, text animations also turns the website
-          from being static to a more live site that comes into life.
-        </p>
         <img
           style="width: 100%; border-radius: 5px"
           src="assets/bugipay-screens.png"
@@ -162,26 +162,32 @@
           />
         </div>
         <div class="col-6">
+          <h3 style="font-family: Open Sans; font-weight: 900">
+            Chat and transfer money all in a one place.
+          </h3>
           <p>
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Bugipay users can chat and transfer money very easily through an
+            intuitive chat ui that most people are already familiar with. This
+            not only makes the process of transferring money easy but also very
+            secured since users can always transfer funds to people they already
+            chat to and know very well.
           </p>
         </div>
       </div>
 
       <div class="row gx-1" style="padding-top: 50px; align-items: center">
         <div class="col-6">
+          <h3 style="font-family: Open Sans; font-weight: 900">
+            Convenience² + security 🔒 = Bugipay.
+          </h3>
           <p>
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Bugipay adopts the use of QR codes widely throughout the app due to
+            the simplicity and convenience they offer. Users can receive money
+            by simply showing their “Receive Payment” QR codes, and the other
+            party can transfer money by scanning QR code, validating that they
+            are about to send money to the right person/vendor, and then perform
+            a quick local authentication through FaceId, Iris scanner, or
+            FingerprintId to complete the payment. Awesome!
           </p>
         </div>
         <div class="col-6">
@@ -196,8 +202,8 @@
       <div class="row gx-1" style="padding-top: 50px">
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            Bugipay also packs a ton load of fun features such as lucky
+            envelopes, and many more to keep users entertained.
           </p>
           <img
             style="width: 90%; border-radius: 5px"
@@ -207,8 +213,9 @@
         </div>
         <div class="col-6">
           <p>
-            This site requires email, username and password to register,
-            ofcourse registering is very important to prevent malicious actors.
+            Dark mode is also supported even for devices that dont officially
+            support dark mode, users can still go to the settings page and
+            enable dark mode for Bugipay.
           </p>
           <img
             style="width: 90%; border-radius: 5px"
@@ -229,19 +236,25 @@
       "
     >
       <div class="row" style="width: 30%">
-        <div class="col">Home</div>
-        <div class="col">About Me</div>
-        <div class="col">Contact</div>
+        <div onclick="navigate('/index.html')" class="col pointer">Home</div>
+        <div onclick="navigate('/index.html#about')" class="col pointer">
+          About Me
+        </div>
+        <div onclick="navigate('/index.html#contact')" class="col pointer">
+          Contact
+        </div>
       </div>
       <div class="row" style="padding-top: 20px; font-size: 20px">
-        <div class="col">
+        <div class="col pointer">
           <i class="fab fa-instagram"></i>
         </div>
-        <div class="col">
+        <div class="col pointer">
           <div class="col"><i class="fab fa-github"></i></div>
         </div>
       </div>
     </section>
+
+    <script src="/index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
